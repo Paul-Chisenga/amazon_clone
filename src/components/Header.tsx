@@ -15,7 +15,7 @@ const Header = () => {
   const router = useRouter();
   const items = useAppSelector(selectItems);
   return (
-    <header>
+    <header className="sticky top-0 z-50">
       {/* top nav */}
       <div className="flex items-center flex-grow p-1 py-2 bg-amazon_blue">
         <div className="flex items-center flex-grow mt-2 sm:flex-grow-0">
